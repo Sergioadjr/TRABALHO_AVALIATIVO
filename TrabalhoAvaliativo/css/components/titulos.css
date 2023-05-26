@@ -1,0 +1,34 @@
+.pagina-noticias {
+    padding-top: 12%;
+}
+
+.pagina-noticias h1 {
+    text-align: center;
+    font-size: 52px;
+
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to right, #3B467A, #16287A, #2442C7);
+}
+
+.titulo-noticia {
+    color: rgb(196, 23, 12);
+}
+
+.pagina-fotos {
+    padding-top: 12%;
+}
+
+.titulo-fotos {
+    color: rgb(196, 23, 12);
+}
+
+.pagina-fotos h1 {
+    text-align: center;
+    font-size: 52px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to right, #3B467A, #16287A, #2442C7);
+}

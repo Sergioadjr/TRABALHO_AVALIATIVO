@@ -32,3 +32,16 @@
     color: transparent;
     background-image: linear-gradient(to right, #3B467A, #16287A, #2442C7);
 }
+
+.pagina-formulario {
+    padding-top: 12%;
+}
+
+.pagina-formulario h1 {
+    text-align: center;
+    font-size: 52px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to right, #3B467A, #16287A, #2442C7);
+}

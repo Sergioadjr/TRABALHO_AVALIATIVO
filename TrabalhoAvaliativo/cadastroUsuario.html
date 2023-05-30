@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/base.css" rel="stylesheet">
+    <title>Cadastro de Usuário</title>
+</head>
+
+<header id="cabecalho">
+    <nav class="nav-bar">
+        <div class="cabecalho-logo">
+            <h1><img src="./icons/logo.png"> Trabalho Avaliativo</h1>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./cadastroUsuario.html">Cadastro</a></li>
+                <li><a href="./noticias.html">Notícias</a></li>
+                <li><a href="./galeriaFotos.html">Galeria de Fotos</a></li>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <div class="pagina-formulario">
+        <h1>Cadastro do Usuário</h1>
+
+        <form action="">
+
+            <h2>Dados Pessoais</h2>
+
+            <div class="">
+                <div class="">
+                    <label class="" for="nome">Nome Completo:</label>
+                    <input class="" required type="nome" id="nome">
+                    <span class="alerta__nome"></span>
+                </div>
+
+                <div class="mt-2 d-flex flex-column">
+                    <label class="" for="cpf">CPF:</label>
+                    <input class="" required type="text" id="cpf">
+                    <span class="alerta__cpfInvalido"></span>
+                </div>
+
+                <div class="">
+                    <label class="" for="data">Data de Nascimento:</label>
+                    <input class="" required type="date" id="data">
+                </div>
+
+                <div class="mt-2 d-flex flex-column">
+                    <label class="" for="telefone">Telefone:*</label>
+                    <input class="" required type="text" id="telefone" placeholder="(67) 99999-9999">
+                    <!-- </div>
+                <div class="textoOptativo" style="font-size: 10px;">*Opcional</div> -->
+
+                    <div class="">
+                        <label class="" for="genero">Gênero:</label>
+                        <select class="" required aria-label="Default select example">
+                            <option value="1">Feminino</option>
+                            <option value="2">Masculino</option>
+                            <option value="3">Não binário</option>
+                        </select>
+                    </div>
+
+                    <div class="">
+                        <label class="" for="email">E-mail:</label>
+                        <input class="" required type="email" id="email">
+                    </div>
+
+                    <div class="">
+                        <label class="" for="confirmacao_email">Confirmação de e-mail:</label>
+                        <input class="" required type="email" id="confirmacao_email">
+                        <span class="alerta__email"></span>
+                    </div>
+
+                    <div class="">
+                        <label class="" for="campo_senha">Senha:</label>
+                        <input class="" required type="password" id="campo_senha">
+                    </div>
+
+                    <div class="">
+                        <label class="" for="confirmacao_senha">Confirmar Senha:</label>
+                        <input class="" required type="password" id="confirmacao_senha">
+                        <span class="alerta__senha"></span>
+                    </div>
+
+                </div>
+
+        </form>
+    </div>
+
+</body>
+
+<footer>
+
+</footer>
+
+</html>

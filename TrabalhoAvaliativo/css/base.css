@@ -3,13 +3,14 @@
 @import url(components/cabecalho.css);
 @import url(components/cards.css);
 @import url(components/titulos.css);
+@import url(components/sections.css);
+@import url(components/section-galeriaFotos.css);
 
 
 :root {
   --azul-medio: #2442C7;
+  --azul-escuro: #3B467A;
   --cinza-fundo: #ffffff;
-  --cor-marrom: #532F23;
-  --cor-vermelho: #742520;
 }
 
 * {
@@ -26,4 +27,24 @@ body {
 main {
   width: 90vw;
   margin: 0 auto;
+}
+
+.titulo-section {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 0;
+  text-shadow: 1px 1px 1px rgb(0 0 0 / 10%);
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  line-height: 1.5;
+  justify-content: center;
+  display: flex;
+  padding: 70px;
+  color: var(--azul-escuro);
+  padding-top: 150px;
+  font-weight: bolder;    
+  font-size: 1.5vw;
+  text-decoration: underline;
+  text-underline-offset: 20px;
+  text-decoration-color: var(--azul-medio);
+
 }

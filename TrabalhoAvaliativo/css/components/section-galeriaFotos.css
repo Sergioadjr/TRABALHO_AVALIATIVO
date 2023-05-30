@@ -1,0 +1,51 @@
+.album-galeria{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.card {
+    width: 30px;
+    height: 30px;
+}
+
+.card img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.posicao-foto-1 {
+    transform: translate(250px, 60px);
+}
+
+.posicao-foto-2 {
+    transform: translate(200px, -160px);
+}
+
+.posicao-foto-3 {
+    transform: translate(150px, -360px);
+}
+
+.posicao-foto-4 {
+    transform: translate(850px, -65px);
+}
+
+.posicao-foto-5 {
+    transform: translate(800px, -285px);
+}
+
+.posicao-foto-6 {
+    transform: translate(750px, -490px);
+}
+
+.posicao-foto-7 {
+    transform: translate(1450px, -190px);
+}
+
+.posicao-foto-8 {
+    transform: translate(1400px, -410px);
+}
+
+.posicao-foto-9 {
+    transform: translate(1350px, -620px);
+}

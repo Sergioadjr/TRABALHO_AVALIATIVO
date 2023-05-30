@@ -32,20 +32,21 @@
     background-image: linear-gradient(to right, #3B467A, #16287A, #2442C7);
 }
 
-.titulo-section-fotos_animal {
-    transform: translate(350px, 60px);
+.titulos-album-fotos{
+    display: flex;
     font-size: 21px;
     color: var(--azul-medio);
 }
 
-.titulo-section-fotos_paisagem {
-    transform: translate(875px, -68px);
-    font-size: 21px;
-    color: var(--azul-medio);
+.titulo-section-fotos_animal{
+    flex: 1;
+    margin-left: 350px;
 }
-
-.titulo-section-fotos_pessoa {
-    transform: translate(1450px, -195px);
-    font-size: 21px;
-    color: var(--azul-medio);
+.titulo-section-fotos_paisagem{
+    margin-left: 390px;
+    flex: 2;
+}
+.titulo-section-fotos_pessoa{
+    margin-left: 350px;
+    flex: 3;
 }

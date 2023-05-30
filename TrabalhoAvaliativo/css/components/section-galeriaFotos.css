@@ -15,37 +15,37 @@
 }
 
 .posicao-foto-1 {
-    transform: translate(250px, 60px);
+    transform: translate(250px, 0px);
 }
 
 .posicao-foto-2 {
-    transform: translate(200px, -160px);
+    transform: translate(200px, -210px);
 }
 
 .posicao-foto-3 {
-    transform: translate(150px, -360px);
+    transform: translate(150px, -420px);
 }
 
 .posicao-foto-4 {
-    transform: translate(850px, -65px);
+    transform: translate(850px, -50px);
 }
 
 .posicao-foto-5 {
-    transform: translate(800px, -285px);
+    transform: translate(800px, -260px);
 }
 
 .posicao-foto-6 {
-    transform: translate(750px, -490px);
+    transform: translate(750px, -470px);
 }
 
 .posicao-foto-7 {
-    transform: translate(1450px, -190px);
+    transform: translate(1450px, -100px);
 }
 
 .posicao-foto-8 {
-    transform: translate(1400px, -410px);
+    transform: translate(1400px, -310px);
 }
 
 .posicao-foto-9 {
-    transform: translate(1350px, -620px);
+    transform: translate(1350px, -520px);
 }

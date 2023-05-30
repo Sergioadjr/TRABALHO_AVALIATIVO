@@ -16,16 +16,9 @@
         <div class="nav">
             <ul>
                 <li><a href="./index.html">Home</a></li>
-<<<<<<< HEAD
                 <li><a href="./index.html#section-cadastro">Cadastro</a></li>
                 <li><a href="./index.html#section-noticias">Notícias</a></li>
                 <li><a href="./index.html#section-galeriaFotos">Galeria de Fotos</a></li>
-=======
-                <li><a href="./cadastroUsuario.html">Cadastro</a></li>
-                <li><a href="./noticias.html">Notícias</a></li>
-                <li><a href="./galeriaFotos.html">Galeria de Fotos</a></li>
->>>>>>> 60ca46c5e9a72c1f2e0a252ee023b2470cb3027b
-                </li>
             </ul>
         </div>
     </nav>
@@ -36,18 +29,52 @@
 </body>
 <section id="section-cadastro">
     <div class="titulo-section">
-        <h3>Cadastro</h3>
+        <h3>Cadastro do Usuário</h3>
     </div>
 
+    <div class="formulario-container">
 
+        <form action="">
 
+            <h2>Dados Pessoais</h2>
 
+            <div class="form">
+                <label class="" for="nome">Nome Completo:</label>
+                <input class="" required type="nome" id="nome">
+                <span class="alerta__nome"></span>
 
+                <label class="" for="cpf">CPF:</label>
+                <input class="" required type="text" id="cpf">
+                <span class="alerta__cpfInvalido"></span>
 
+                <label class="" for="data">Data de Nascimento:</label>
+                <input class="" required type="date" id="data">
 
+                <label class="" for="telefone">Telefone:*</label>
+                <input class="" required type="text" id="telefone" placeholder="(67) 99999-9999">
+
+                <label class="" for="email">E-mail:</label>
+                <input class="" required type="email" id="email">
+
+                <label class="" for="confirmacao_email">Confirmação de e-mail:</label>
+                <input class="" required type="email" id="confirmacao_email">
+
+                <label class="" for="campo_senha">Senha:</label>
+                <input class="" required type="password" id="campo_senha">
+
+                <label class="" for="confirmacao_senha">Confirmar Senha:</label>
+                <input class="" required type="password" id="confirmacao_senha">
+                <span class="alerta__senha"></span>
+            </div>
+            <div class="botao">
+                <button class="btnSalvar">Cadastrar</button>
+            </div>
+
+        </form>
+    </div>
 </section>
 
-<section id="#section-noticias">
+<section id="section-noticias">
     <div class="conteudo-home-noticias">
         <div class="titulo-section">
             <h3>Notícias</h3>
@@ -56,13 +83,19 @@
     </div>
 </section>
 
-<section id="#section-galeriaFotos">
+<section id="section-galeriaFotos">
     <div class="conteudo-home-galeriaFotos">
         <div class="titulo-section">
             <h3>Galeria de fotos</h3>
         </div>
 
-        <h5 class="titulo-section-fotos_animal"> Fotos de Animais </h5>
+        <div class="titulos-album-fotos">
+            <h5 class="titulo-section-fotos_animal"> Fotos de Animais </h5>
+            <h5 class="titulo-section-fotos_paisagem"> Fotos de Paisagens </h5>
+            <h5 class="titulo-section-fotos_pessoa"> Fotos de Pessoas </h5>
+        </div>
+
+
         <a href="./galeriaFotosAnimais.html">
 
             <div class="album-galeria">
@@ -81,7 +114,6 @@
             </div>
         </a>
 
-        <h5 class="titulo-section-fotos_paisagem"> Fotos de Paisagens </h5>
         <a href="./galeriaFotosPaisagens.html">
             <div class="album-galeria">
                 <div class="card">
@@ -99,7 +131,6 @@
             </div>
         </a>
 
-        <h5 class="titulo-section-fotos_pessoa"> Fotos de Pessoas </h5>
         <a href="./galeriaFotosPessoas.html">
 
             <div class="album-galeria">
@@ -118,8 +149,6 @@
             </div>
         </a>
 </section>
-
-
 
 <footer>
 

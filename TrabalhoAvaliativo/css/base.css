@@ -6,6 +6,7 @@
 @import url(components/sections.css);
 @import url(components/section-galeriaFotos.css);
 @import url(components/formulario.css);
+@import url(components/carrossel.css);
 
 
 :root {
@@ -16,6 +17,10 @@
 
 * {
   font-family:'Segoe UI', Tahoma, sans-serif;
+}
+
+header{
+  z-index: 2;
 }
 
 body {

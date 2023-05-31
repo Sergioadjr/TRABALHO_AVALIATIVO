@@ -26,134 +26,184 @@
 
 
 <body>
+    <section id="section-cadastro">
+        <div class="titulo-section">
+            <h3>Cadastro do Usuário</h3>
+        </div>
+
+        <div class="formulario-container">
+
+            <form action="">
+
+                <h2>Dados Pessoais</h2>
+
+                <div class="form">
+                    <label class="" for="nome">Nome Completo:</label>
+                    <input class="" required type="nome" id="nome">
+                    <span class="alerta__nome"></span>
+
+                    <label class="" for="cpf">CPF:</label>
+                    <input class="" required type="text" id="cpf">
+                    <span class="alerta__cpfInvalido"></span>
+
+                    <label class="" for="data">Data de Nascimento:</label>
+                    <input class="" required type="date" id="data">
+
+                    <label class="" for="telefone">Telefone:*</label>
+                    <input class="" required type="text" id="telefone" placeholder="(67) 99999-9999">
+
+                    <label class="" for="email">E-mail:</label>
+                    <input class="" required type="email" id="email">
+
+                    <label class="" for="confirmacao_email">Confirmação de e-mail:</label>
+                    <input class="" required type="email" id="confirmacao_email">
+
+                    <label class="" for="campo_senha">Senha:</label>
+                    <input class="" required type="password" id="campo_senha">
+
+                    <label class="" for="confirmacao_senha">Confirmar Senha:</label>
+                    <input class="" required type="password" id="confirmacao_senha">
+                    <span class="alerta__senha"></span>
+                </div>
+                <div class="botao">
+                    <button class="btnSalvar">Cadastrar</button>
+                </div>
+
+            </form>
+        </div>
+    </section>
+
+    <section id="section-noticias">
+        <div class="conteudo-home-noticias">
+            <div class="titulo-section">
+                <h3>Notícias</h3>
+            </div>
+
+            <div class="carousel-container">
+                <div class="carousel">
+                    <div class="slide">
+                        <img class="carousel-img" src="./img/img_noticia2.webp" alt="Image 1">
+                        <div class="carousel-text">
+                            Texto do slide 1
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img class="carousel-img" src="./img/img_noticia5.webp" alt="Image 2">
+                        <div class="carousel-text">
+                            Texto do slide 2
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img class="carousel-img" src="./img/img_noticia6.webp" alt="Image 3">
+                        <div class="carousel-text">
+                            Texto do slide 3
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img class="carousel-img" src="./img/img_noticia1.webp" alt="Image 3">
+                        <div class="carousel-text">
+                            Texto do slide 3
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img class="carousel-img" src="./img/img_noticia2.webp" alt="Image 3">
+                        <div class="carousel-text">
+                            Texto do slide 4
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img class="carousel-img" src="./img/img_noticia4.webp" alt="Image 3">
+                        <div class="carousel-text">
+                            Texto do slide 5
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-nav">
+                    <button class="nav-btn active"></button>
+                    <button class="nav-btn"></button>
+                    <button class="nav-btn"></button>
+                    <button class="nav-btn"></button>
+                    <button class="nav-btn"></button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="section-galeriaFotos">
+        <div class="conteudo-home-galeriaFotos">
+            <div class="titulo-section">
+                <h3>Galeria de fotos</h3>
+            </div>
+
+            <div class="titulos-album-fotos">
+                <h5 class="titulo-section-fotos_animal"> Fotos de Animais </h5>
+                <h5 class="titulo-section-fotos_paisagem"> Fotos de Paisagens </h5>
+                <h5 class="titulo-section-fotos_pessoa"> Fotos de Pessoas </h5>
+            </div>
+
+
+            <a href="./galeriaFotosAnimais.html">
+
+                <div class="album-galeria">
+                    <div class="card">
+                        <div class="posicao-foto-1 zoom">
+                            <img src="./img/img_galeria1.webp" alt="Foto 1">
+                        </div>
+                        <div class="posicao-foto-2 zoom">
+                            <img src="./img/img_galeria2.webp" alt="Foto 2">
+                        </div>
+                        <div class="posicao-foto-3 zoom">
+                            <img src="./img/img_galeria3.webp" alt="Foto 3">
+                        </div>
+                    </div>
+
+                </div>
+            </a>
+
+            <a href="./galeriaFotosPaisagens.html">
+                <div class="album-galeria">
+                    <div class="card">
+                        <div class="posicao-foto-4 zoom">
+                            <img src="./img/img_galeria17.jpg" alt="Foto 1">
+                        </div>
+                        <div class="posicao-foto-5 zoom">
+                            <img src="./img/img_galeria18.jpg" alt="Foto 2">
+                        </div>
+                        <div class="posicao-foto-6 zoom">
+                            <img src="./img/img_galeria19.jpg" alt="Foto 3">
+                        </div>
+                    </div>
+
+                </div>
+            </a>
+
+            <a href="./galeriaFotosPessoas.html">
+
+                <div class="album-galeria">
+                    <div class="card">
+                        <div class="posicao-foto-7 zoom">
+                            <img src="./img/img_galeria32.jpg" alt="Foto 1">
+                        </div>
+                        <div class="posicao-foto-8 zoom">
+                            <img src="./img/img_galeria33.jpg" alt="Foto 2">
+                        </div>
+                        <div class="posicao-foto-9 zoom">
+                            <img src="./img/img_galeria34.jpg" alt="Foto 3">
+                        </div>
+                    </div>
+
+                </div>
+            </a>
+    </section>
+    <script defer src="./javascript/carrossel.js"></script>
+    <script defer src="./javascript/redimensionamentoFoto.js"></script>
 </body>
-<section id="section-cadastro">
-    <div class="titulo-section">
-        <h3>Cadastro do Usuário</h3>
-    </div>
-
-    <div class="formulario-container">
-
-        <form action="">
-
-            <h2>Dados Pessoais</h2>
-
-            <div class="form">
-                <label class="" for="nome">Nome Completo:</label>
-                <input class="" required type="nome" id="nome">
-                <span class="alerta__nome"></span>
-
-                <label class="" for="cpf">CPF:</label>
-                <input class="" required type="text" id="cpf">
-                <span class="alerta__cpfInvalido"></span>
-
-                <label class="" for="data">Data de Nascimento:</label>
-                <input class="" required type="date" id="data">
-
-                <label class="" for="telefone">Telefone:*</label>
-                <input class="" required type="text" id="telefone" placeholder="(67) 99999-9999">
-
-                <label class="" for="email">E-mail:</label>
-                <input class="" required type="email" id="email">
-
-                <label class="" for="confirmacao_email">Confirmação de e-mail:</label>
-                <input class="" required type="email" id="confirmacao_email">
-
-                <label class="" for="campo_senha">Senha:</label>
-                <input class="" required type="password" id="campo_senha">
-
-                <label class="" for="confirmacao_senha">Confirmar Senha:</label>
-                <input class="" required type="password" id="confirmacao_senha">
-                <span class="alerta__senha"></span>
-            </div>
-            <div class="botao">
-                <button class="btnSalvar">Cadastrar</button>
-            </div>
-
-        </form>
-    </div>
-</section>
-
-<section id="section-noticias">
-    <div class="conteudo-home-noticias">
-        <div class="titulo-section">
-            <h3>Notícias</h3>
-        </div>
-
-    </div>
-</section>
-
-<section id="section-galeriaFotos">
-    <div class="conteudo-home-galeriaFotos">
-        <div class="titulo-section">
-            <h3>Galeria de fotos</h3>
-        </div>
-
-        <div class="titulos-album-fotos">
-            <h5 class="titulo-section-fotos_animal"> Fotos de Animais </h5>
-            <h5 class="titulo-section-fotos_paisagem"> Fotos de Paisagens </h5>
-            <h5 class="titulo-section-fotos_pessoa"> Fotos de Pessoas </h5>
-        </div>
-
-
-        <a href="./galeriaFotosAnimais.html">
-
-            <div class="album-galeria">
-                <div class="card">
-                    <div class="posicao-foto-1 zoom">
-                        <img src="./img/img_galeria1.webp" alt="Foto 1">
-                    </div>
-                    <div class="posicao-foto-2 zoom">
-                        <img src="./img/img_galeria2.webp" alt="Foto 2">
-                    </div>
-                    <div class="posicao-foto-3 zoom">
-                        <img src="./img/img_galeria3.webp" alt="Foto 3">
-                    </div>
-                </div>
-
-            </div>
-        </a>
-
-        <a href="./galeriaFotosPaisagens.html">
-            <div class="album-galeria">
-                <div class="card">
-                    <div class="posicao-foto-4 zoom">
-                        <img src="./img/img_galeria17.jpg" alt="Foto 1">
-                    </div>
-                    <div class="posicao-foto-5 zoom">
-                        <img src="./img/img_galeria18.jpg" alt="Foto 2">
-                    </div>
-                    <div class="posicao-foto-6 zoom">
-                        <img src="./img/img_galeria19.jpg" alt="Foto 3">
-                    </div>
-                </div>
-
-            </div>
-        </a>
-
-        <a href="./galeriaFotosPessoas.html">
-
-            <div class="album-galeria">
-                <div class="card">
-                    <div class="posicao-foto-7 zoom">
-                        <img src="./img/img_galeria32.jpg" alt="Foto 1">
-                    </div>
-                    <div class="posicao-foto-8 zoom">
-                        <img src="./img/img_galeria33.jpg" alt="Foto 2">
-                    </div>
-                    <div class="posicao-foto-9 zoom">
-                        <img src="./img/img_galeria34.jpg" alt="Foto 3">
-                    </div>
-                </div>
-
-            </div>
-        </a>
-</section>
 
 <footer id="rodape">
-<div>
+    <div>
 
-</div>
+    </div>
 </footer>
 
 

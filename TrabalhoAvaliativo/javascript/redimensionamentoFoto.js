@@ -1,3 +1,7 @@
+
+
+// REDIMENCIONA IMAGENS PARA GALERIA DE FOTOS
+
 window.addEventListener('load', function () {
     var cards = document.querySelectorAll('.card-imagens img');
     for (var i = 0; i < cards.length; i++) {

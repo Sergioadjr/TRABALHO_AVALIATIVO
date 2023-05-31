@@ -1,6 +1,7 @@
 const slides = document.querySelectorAll('.slide');
 const navButtons = document.querySelectorAll('.nav-btn');
-let currentIndex = -1;
+let currentIndex = 0;
+
 
 function goToSlide(index) {
     slides.forEach((slide, i) => {
@@ -12,7 +13,7 @@ function goToSlide(index) {
             button.classList.add('active');
         } else {
             button.classList.remove('active');
-        }
+        }   
     });
 
     currentIndex = index;
@@ -34,4 +35,4 @@ function nextSlide() {
     goToSlide(currentIndex);
   }
 
-setInterval(nextSlide, 5000);
+setInterval(nextSlide, 4000);

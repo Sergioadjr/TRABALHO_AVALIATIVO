@@ -3,7 +3,6 @@
   height: 700px;
   position: relative;
   overflow: hidden;
-  margin-bottom: 20px;
 }
 
 .carousel {
@@ -33,7 +32,7 @@
   text-align: center;
   font-size: 18px;
   font-weight: bold;
-  color: #a83030;
+  color: #a51010;
 }
 
 .carousel-nav {
@@ -55,5 +54,5 @@
 }
 
 .carousel-nav button.active {
-  background-color: #333;
+  background-color: #a51010;
 }

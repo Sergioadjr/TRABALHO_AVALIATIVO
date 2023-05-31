@@ -2,7 +2,6 @@ const slides = document.querySelectorAll('.slide');
 const navButtons = document.querySelectorAll('.nav-btn');
 let currentIndex = 0;
 
-
 function goToSlide(index) {
     slides.forEach((slide, i) => {
         slide.style.transform = `translateX(${(i - index) * 100}%)`;
@@ -13,7 +12,7 @@ function goToSlide(index) {
             button.classList.add('active');
         } else {
             button.classList.remove('active');
-        }   
+        }
     });
 
     currentIndex = index;
@@ -28,11 +27,11 @@ navButtons.forEach((button, i) => {
 function nextSlide() {
     currentIndex = (currentIndex + 1) % slides.length;
     goToSlide(currentIndex);
-  }
-  
-  function prevSlide() {
+}
+
+function prevSlide() {
     currentIndex = (currentIndex - 1 + slides.length) % slides.length;
     goToSlide(currentIndex);
-  }
+}
 
 setInterval(nextSlide, 4000);

@@ -1,5 +1,3 @@
-
-
 // REDIMENCIONA IMAGENS PARA GALERIA DE FOTOS
 
 window.addEventListener('load', function () {

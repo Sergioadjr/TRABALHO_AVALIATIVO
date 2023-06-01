@@ -7,3 +7,14 @@
     text-align: center;
 }
 
+.acesso_todas_noticias a{
+    margin-top: 3%;
+    margin-left: 85%;
+    font-size: x-large;
+    color: var(--vermelho-titulos);
+    text-decoration: none;
+    text-decoration: underline;
+    
+}
+
+

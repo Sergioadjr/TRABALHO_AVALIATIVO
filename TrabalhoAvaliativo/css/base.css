@@ -12,7 +12,8 @@
 :root {
   --azul-medio: #2442C7;
   --azul-escuro: #3B467A;
-  --cinza-fundo: #ffffff;
+  --cinza-fundo: #d4d1d1;
+  --vermelho-titulos: rgb(196, 23, 12); 
 }
 
 * {
@@ -28,6 +29,7 @@ body {
   margin: 0 auto;
   width: auto;
   height: 100vh;
+  background-color: var(--cinza-fundo);
 }
 
 main {

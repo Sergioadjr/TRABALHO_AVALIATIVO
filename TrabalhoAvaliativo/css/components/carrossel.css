@@ -56,3 +56,7 @@
 .carousel-nav button.active {
   background-color: #a51010;
 }
+
+.slide a {
+  text-decoration: none;
+}

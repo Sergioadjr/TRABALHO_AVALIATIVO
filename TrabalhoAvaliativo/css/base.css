@@ -7,12 +7,14 @@
 @import url(components/section-galeriaFotos.css);
 @import url(components/formulario.css);
 @import url(components/carrossel.css);
+@import url(components/rodape.css);
 
 
 :root {
   --azul-medio: #2442C7;
   --azul-escuro: #3B467A;
-  --cinza-fundo: #ffffff;
+  --cinza-fundo: #d4d1d1;
+  --vermelho-titulos: rgb(196, 23, 12); 
 }
 
 * {
@@ -28,6 +30,7 @@ body {
   margin: 0 auto;
   width: auto;
   height: 100vh;
+  background-color: var(--cinza-fundo);
 }
 
 main {
@@ -53,4 +56,8 @@ main {
   text-underline-offset: 20px;
   text-decoration-color: var(--azul-medio);
 
+}
+
+footer{
+  background: linear-gradient(to right, #3B467A, #16287A, #2442C7);
 }

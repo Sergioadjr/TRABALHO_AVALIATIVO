@@ -38,38 +38,37 @@
                 <h2>Dados Pessoais</h2>
 
                 <div class="form">
-                    <label class="" for="nome">Nome Completo:</label>
-                    <input class="" required type="nome" id="nome">
-                    <span class="alerta__nome"></span>
+                    <label for="nome">Nome Completo:</label>
+                    <input id="nome" required type="nome">
 
-                    <label class="" for="cpf">CPF:</label>
-                    <input class="" required type="text" id="cpf">
-                    <span class="alerta__cpfInvalido"></span>
+                    <label for="cpf">CPF:</label>
+                    <input type="text" id="cpf" name="cpf" required />
 
-                    <label class="" for="data">Data de Nascimento:</label>
-                    <input class="" required type="date" id="data">
+                    <label for="data">Data de Nascimento:</label>
+                    <input id="dataNascimento" required type="date">
 
-                    <label class="" for="telefone">Telefone:*</label>
-                    <input class="" required type="text" id="telefone" placeholder="(67) 99999-9999">
+                    <label for="telefone">Telefone:</label>
+                    <input id="telefone" required type="text" placeholder="(67) 99999-9999">
 
-                    <label class="" for="email">E-mail:</label>
-                    <input class="" required type="email" id="email">
+                    <label for="email">E-mail:</label>
+                    <input id="email" required type="email" >
 
-                    <label class="" for="confirmacao_email">Confirmação de e-mail:</label>
-                    <input class="" required type="email" id="confirmacao_email">
+                    <label for="confirmacao_email">Confirmação de e-mail:</label>
+                    <input id="confEmail" required type="email" >
 
-                    <label class="" for="campo_senha">Senha:</label>
-                    <input class="" required type="password" id="campo_senha">
+                    <label for="senha">Senha:</label>
+                    <input type="password" id="senha" name="senha" required />
 
-                    <label class="" for="confirmacao_senha">Confirmar Senha:</label>
-                    <input class="" required type="password" id="confirmacao_senha">
-                    <span class="alerta__senha"></span>
+                    <label for="confirmacaoSenha">Confirme a senha:</label>
+                    <input type="password" id="confirmacaoSenha" name="confirmacaoSenha" required />
+
                 </div>
                 <div class="botao">
-                    <button class="btnSalvar">Cadastrar</button>
+                    <button id="btnSalvar" class="btnSalvar" type="submit"
+                        onclick="verificarFormulario(event)">Cadastrar</button>
                 </div>
-
             </form>
+
         </div>
     </section>
 
@@ -82,34 +81,31 @@
             <div class="carousel-container">
                 <div class="carousel">
                     <div class="slide">
-                        <img class="carousel-img" src="./img/img_noticia2.webp" alt="Image 1">
-                        <div class="carousel-text">
-                            Ponte da Avenida Fernando Corrêa é liberada parcialmente, mas obras seguem
-                        </div>
+                        <a
+                            href="https://www.campograndenews.com.br/cidades/capital/ponte-da-avenida-fernando-correa-e-liberada-parcialmente-mas-obras-seguem">
+                            <img class="carousel-img" src="./img/img_noticia2.webp" alt="Image 1">
+                            <div class="carousel-text">
+                                Ponte da Avenida Fernando Corrêa é liberada parcialmente, mas obras seguem
+                            </div>
+                        </a>
                     </div>
                     <div class="slide">
-                        <img class="carousel-img" src="./img/img_noticia2.webp" alt="Image 2">
-                        <div class="carousel-text">
-                            Governador atribui bom desempenho econômico do Estado à regulação estadual
-                        </div>
+                        <a
+                            href="https://www.campograndenews.com.br/economia/governador-atribui-bom-desempenho-economico-do-estado-a-regulacao-estadual">
+                            <img class="carousel-img" src="./img/img_noticia5.webp" alt="Image 2">
+                            <div class="carousel-text">
+                                Governador atribui bom desempenho econômico do Estado à regulação estadual
+                            </div>
+                        </a>
                     </div>
                     <div class="slide">
-                        <img class="carousel-img" src="./img/img_noticia5.webp" alt="Image 3">
-                        <div class="carousel-text">
-                            Funsat oferece vagas de trabalho com salários de até R$ 3,9 mil em Campo Grande
-                        </div>
-                    </div>
-                    <div class="slide">
-                        <img class="carousel-img" src="./img/img_noticia1.webp" alt="Image 4">
-                        <div class="carousel-text">
-                            Texto do slide 4
-                        </div>
-                    </div>
-                    <div class="slide">
-                        <img class="carousel-img" src="./img/img_noticia4.webp" alt="Image 6">
-                        <div class="carousel-text">
-                            Texto do slide 6
-                        </div>
+                        <a
+                            href="https://www.campograndenews.com.br/cidades/capital/funsat-oferece-vagas-de-trabalho-com-salarios-de-ate-r-3-9-mil-em-campo-grande">
+                            <img class="carousel-img" src="./img/img_noticia6.webp" alt="Image 3">
+                            <div class="carousel-text">
+                                Funsat oferece vagas de trabalho com salários de até R$ 3,9 mil em Campo Grande
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <div class="carousel-nav">
@@ -118,12 +114,15 @@
                     <button class="nav-btn"></button>
                     <button class="nav-btn"></button>
                     <button class="nav-btn"></button>
-                 
+
                 </div>
                 <button class="carousel-prev" onclick="prevSlide()">&lt;</button>
                 <button class="carousel-next" onclick="nextSlide()">&gt;</button>
             </div>
 
+            <div class="acesso_todas_noticias">
+                <a href="./noticias.html">Ver todos</a>
+            </div>
         </div>
     </section>
 
@@ -194,17 +193,25 @@
             </a>
     </section>
     <script defer src="./javascript/carrossel.js"></script>
+    <script defer src="./javascript/cadastroUsuario.js"></script>
     <script defer src="./javascript/redimensionamentoFoto.js"></script>
 </body>
 
 <footer id="rodape">
-    <div>
+    <div class="icon-copyright">
+        <img src="./icons/Copyright-Symbol-Logo-Transparent-PNG.png" alt="Copyright">
+    </div>
 
+    <div class="icon-redes-sociais">
+        <img src="./icons/redes sociais.png" alt="redes sociais">
+    </div>
+
+    <div class="footer-integrantes">
+        <p>Anderson Eifler Ajala</p>
+        <p>Alguém 1</p>
+        <p>Alguém 2</p>
+        <p>Sérgio Augusto David</p>
     </div>
 </footer>
-
-
-
-
 
 </html>

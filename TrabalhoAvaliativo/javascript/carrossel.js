@@ -34,4 +34,4 @@ function prevSlide() {
     goToSlide(currentIndex);
 }
 
-setInterval(nextSlide, 4000);
+setInterval(nextSlide, 3500);

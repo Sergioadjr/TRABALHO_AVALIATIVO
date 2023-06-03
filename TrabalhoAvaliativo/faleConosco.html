@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/base.css" rel="stylesheet">
+    <title> Fale Conosco - Trabalho Avaliativo</title>
+</head>
+
+<header id="cabecalho">
+    <nav class="nav-bar">
+        <div class="cabecalho-logo">
+            <h1><img src="./icons/logo.png"> Trabalho Avaliativo</h1>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./index.html#section-cadastro">Cadastro</a></li>
+                <li><a href="./index.html#section-noticias">Notícias</a></li>
+                <li><a href="./index.html#section-galeriaFotos">Galeria de Fotos</a></li>
+                <li><a href="./faleConosco.html">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+
+<body>
+    <div class="pagina-faleConosco">
+        <h1>Fale Conosco</h1>
+        <div id="formulario-grupo-contato">
+            <div class="formulario-identificacao-nome">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="formulario-identificacao-email">
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" required>
+            </div>
+            <div class="formulario-campo-mensagem">
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="10" required></textarea>
+            </div>
+            <button class="btnEnviar" onclick="sendEmail()">Enviar</button>
+        </div>
+
+    </div>
+    <script defer src="./javascript/faleConosco.js"></script>
+</body>
+
+<footer id="rodape">
+    <div class="icon-copyright">
+        <img src="./icons/Copyright-Symbol-Logo-Transparent-PNG.png" alt="Copyright">
+    </div>
+
+    <div class="icon-redes-sociais">
+        <img src="./icons/redes sociais.png" alt="redes sociais">
+    </div>
+
+    <div class="footer-integrantes">
+        <p>Anderson Eifler Ajala</p>
+        <p>Alguém 1</p>
+        <p>Alguém 2</p>
+        <p>Sérgio Augusto David</p>
+    </div>
+</footer>
+
+</html>

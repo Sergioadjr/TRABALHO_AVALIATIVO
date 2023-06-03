@@ -46,7 +46,17 @@
     margin-left: 390px;
     flex: 2;
 }
+
 .titulo-section-fotos_pessoa{
     margin-left: 350px;
     flex: 3;
+}
+
+.pagina-faleConosco h1 {
+    text-align: center;
+    font-size: 52px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to right, #3B467A, #16287A, #2442C7);
 }

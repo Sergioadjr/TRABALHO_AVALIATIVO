@@ -1,0 +1,43 @@
+.pagina-faleConosco {
+    padding-top: 12%;
+    text-align: center;
+    width: auto;
+}
+
+.formulario-identificacao-nome input {
+    border-radius: 1px;
+    width: 10%;
+    border: 2px solid black;
+}
+
+.formulario-identificacao-email input {
+    border-radius: 1px;
+    width: 10%;
+    border: 2px solid black;
+    margin-top: 1%;
+}
+
+.formulario-campo-mensagem{
+    display: flex;
+    justify-content: center;
+}
+
+.formulario-campo-mensagem label{
+    display: flex;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.formulario-campo-mensagem #mensagem {
+    border-radius: 1px;
+    border: 2px solid black;
+    margin-top: 1%;
+    width: 35%;
+}
+
+.btnEnviar {
+    margin-top: 2%;
+    color: var(--azul-medio);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid black;
+}
